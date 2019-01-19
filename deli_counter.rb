@@ -4,7 +4,7 @@ puts Benchmark.measure { 10_000_000.times { Object.new } }
 def line(array)
   x = 0
   if array.length == 0
-    return "The line is currently empty."
+    puts "The line is currently empty."
   else
     array.each do |people|
       x+=1
