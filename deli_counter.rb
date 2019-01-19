@@ -16,5 +16,5 @@ end
 def take_a_number(array, person)
   array.push(person)
   x = array.length
-  puts "Welcome, #{person}. You are"
+  puts "Welcome, #{person}. You are #{int.toi + 1} in line."
 end
