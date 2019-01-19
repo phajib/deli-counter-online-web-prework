@@ -8,7 +8,7 @@ def line(array)
   else
     #puts "The line is currently: "
     array.map do |people|
-      puts "The line is currently: #{x}. #{people}"
+      print "The line is currently: #{x}. #{people}"
       x+=1
     end
   end
