@@ -12,3 +12,7 @@ def line(array)
     puts "#{line_txt}"
   end
 end
+
+def take_a_number(array, person)
+  
+end
